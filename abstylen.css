@@ -486,11 +486,61 @@ h3 {
   
 }
 
+@media screen and (min-width: 601px) and (max-width: 649px) {
+  
+  #acab * {
+  display: none;
+  font-size: 14px;
+  }
+  
+  #acab li {
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+  
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+  
+
+ .responsive-slickr {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important; /* Feste Höhe für Smartphones */
+        max-height: 400px !important;
+    }
+  
+ .leaflet {
+      width: 100% !important;
+        max-width: 100% !important; 
+      max-height: 300px;  
+ }
+ 
+ .fullscreen {
+  display: block !important;  /* Entfernt die Spalten-Formatierung */
+  width: 100% !important;  /* Spalten nehmen die volle Breite ein */
+  }
+  
+  .col-xs-12.col-sm-4.col-md-3 {
+    display: none;
+  }
+  
+  .top-text {
+    font-size: 25px;
+  }
+
+  .bottom-text {
+    font-size: 40px;
+  }
+  
+}
 
 
 /*TABLET SETTINGS*/
 
-@media screen and (min-width: 601px) and (max-width: 1199px) {
+@media screen and (min-width: 650px) and (max-width: 1199px) {
   
   
   
