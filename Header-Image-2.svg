@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="133.63901mm"
+   height="30.332001mm"
+   viewBox="0 0 133.63901 30.332001"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="Header-Image.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="Header-Image-2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.0713332"
+     inkscape:cx="245.73545"
+     inkscape:cy="120.69521"
+     inkscape:window-width="1792"
+     inkscape:window-height="987"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2767"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect486"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:14.1111px;line-height:0.4;font-family:'PT Sans Caption';-inkscape-font-specification:'PT Sans Caption, Bold';text-align:center;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     x="66.520233"
+     y="15.308836"
+     id="text236-1"
+     inkscape:export-filename="Header-Image.svg"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96"><tspan
+       sodipodi:role="line"
+       style="font-size:10.5833px;fill:#000000;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="66.520233"
+       y="15.308836"
+       id="tspan954-7">marius huber</tspan><tspan
+       sodipodi:role="line"
+       style="font-size:14.1111px;fill:#000000;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="66.520233"
+       y="21.129665"
+       id="tspan471-8"> </tspan><tspan
+       sodipodi:role="line"
+       style="font-size:14.1111px;fill:#000000;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="66.520233"
+       y="26.774107"
+       id="tspan4814-2"
+       transform="translate(0,-5.2916669)">datenmanagement</tspan></text>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(18.999068,-14.588539)">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:14.1111px;line-height:0.4;font-family:'PT Sans Caption';-inkscape-font-specification:'PT Sans Caption, Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke;fill-opacity:1"
+       x="46.373302"
+       y="29.31575"
+       id="text236"
+       inkscape:export-filename="Header-Image.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         style="font-size:10.5833px;fill:#ffffff;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+         x="46.373302"
+         y="29.31575"
+         id="tspan954">marius huber</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:14.1111px;fill:#ffffff;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+         x="46.373302"
+         y="35.136581"
+         id="tspan471"> </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:14.1111px;fill:#ffffff;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+         x="46.373302"
+         y="40.781021"
+         id="tspan4814"
+         transform="translate(0,-5.2916669)">datenmanagement</tspan></text>
+  </g>
+</svg>

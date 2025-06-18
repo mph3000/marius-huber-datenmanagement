@@ -1,0 +1,26 @@
+Label_ID;Location;responsibility;Contact;Camera Model;Latitude;Longitude;UTM Zone;UTM East;UTM North;winter - Setup date;Control date;Pull date;Camera_ID;Comments;Trapping effort
+1;Eichelbucksstr/Mosswaldallee;Forest, Revier Mooswald;;Bushnell Essential E3 (119837);48.036241;7.850718;;;;;;;;was not used in wintr season due to large scale tree cutting. Will try again in April.;
+2;Zähringen Bolzplatz;GuT;;Bushnell Essential E3 (119837);48.026268;7.858032;32U;414858.162;5319850.658;10.01.22;25.01.22;08.02.22;UWIN06;;29
+8;St. Georgen neben Kleingartenanlage;GuT;;Bushnell Essential E3 (119837);47.985146;7.796449;32T;410195.417;5315350.096;12.01.22;27.01.22;09.02.22;UWIN08;;28
+9;Campus Flugplatz;Uni;;Bushnell Essential E3 (119837);48.015662;7.829924;32U;412744.643;5318703.305;17.01.22;28.01.22;15.02.22;UWIN14;;29
+11;Wald östl. Mundenhof;Forest, Revier Mooswald;;Bushnell Essential E3 (119837);48.010319;7.785806;32U;409445.353;5318160.355;14.01.22;24.01.22;13.02.22;UWIN28;;30
+12;neben Kleingartenanlage Sundgauallee;GuT;;Bushnell Essential E3 (119837);48.001922;7.82766;32U;412552.586;5317178.758;10.01.22;24.01.22;07.02.22;UWIN29;;28
+13;Hauptfriedhof;Friedhofsverwaltung;;Bushnell Essential E3 (119837);48.009871;7.840289;32U;413507.89;5318047.989;10.01.22;24.01.22;07.02.22;UWIN21;;28
+14;Dietenbachpark;GuT;;Bushnell Essential E3 (119837);48.000971;7.806277;32U;410955.968;5317097.538;12.01.22;24.01.22;09.02.22;UWIN09;;28
+17;Elsässerstr/Granadaallee;Forest, Revier Mooswald;;Bushnell Essential E3 (119837);48.021546;7.815206;32U;411657.157;5319374.043;14.01.22;28.01.22;12.02.22;UWIN23;;29
+18;Wolfsbuck;Forest, Revier Mooswald;;Bushnell Essential E3 (119837);48.027015;7.82679;32U;412530.146;5319968.674;14.01.22;28.01.22;12.02.22;UWIN11;;29
+19;Wald östl. Hebsackwiese;Forest, Revier Rosskopf;;Bushnell Essential E3 (119837);48.012743;7.872538;32U;415917.681;5318331.509;13.01.22;27.01.22;14.02.22;UWIN26;;32
+20;Wintererstraße/Immentalstraße;Forest, Revier Rosskopf;;Bushnell Essential E3 (119837);48.001611;7.868251;32U;415579.809;5317098.943;13.01.22;27.01.22;14.02.22;UWIN27;;32
+21;Opfinger Str./Füllenstallstr.;Forest, Revier Mooswald;;Bushnell Essential E3 (119837);47.997568;7.769797;32T;408228.802;5316762.1;14.01.22;28.01.22;02.03.22;UWIN15;was set up for extra 2 weeks period, due to camera malfunctioning?;47
+23;Konrad Günther Park, Straßenbegleitgrün;GuT;;Bushnell Essential E3 (119837);47.985212;7.878195;32T;416295.028;5315265.458;11.01.22;26.01.22;14.02.22;UWIN12;;34
+24;Gehölz an der Dreisam;GuT;;Bushnell Essential E3 (119837);47.984182;7.901257;32T;418014.177;5315126.203;11.01.22;26.01.22;14.02.22;UWIN16;;34
+25;Wald südl. Bergäckerfriedhof;Forest, Revier Waldsee;;Bushnell Essential E3 (119837);47.979052;7.888178;32T;417030.042;5314570.026;14.01.22;29.01.22;14.02.22;UWIN03;;31
+26;Marie egger's garden;;;Bushnell Essential E3 (119837);47.970551;7.923539;32T;419655.644;5313587.756;11.01.22;26.01.22;14.02.22;UWIN07;;34
+27;Gartenanlage Stühlinger, Theresas Garten;;;Bushnell Essential E3 (119837);47.988942;7.830983;32T;412778.577;5315732.352;10.01.22;27.01.22;15.02.22;UWIN17;;36
+29;Schlierbergweg 33, Garten Franziska Flachsbarth;;;Bushnell Essential E3 (119837);47.98113;7.836332;32T;413164.562;5314858.064;11.01.22;26.01.22;14.02.22;UWIN22;camera placement direction could be changed for better view;34
+32;Forstbotanischer Versuchsgarten;Uni;;Bushnell Essential E3 (119837);48.018512;7.795186;32U;410159.138;5319059.977;14.01.22;03.02.22;16.02.22;UWIN04;;33
+33;Forest between Rieselfeld/Haid;Forest, Revier Mooswald;;Bushnell Essential E3 (119837);47.995297;7.794166;32T;410042.715;5316480.972;16.01.22;27.01.22;13.02.22;UWIN30;;28
+34;Wald Haid;Forest, Revier Mooswald;;Bushnell Essential E3 (119837);47.988028;7.781847;32T;409110.946;5315687.52;12.01.22;27.01.22;09.02.22;UWIN25;;28
+36;Institutsviertel_near Mensa;Uni;;Bushnell Essential E3 (119837);48.001824;7.84729;32U;414016.648;5317145.784;10.01.22;25.01.22;08.02.22;UWIN24;;29
+37;Botanical garden;Uni;;Bushnell Essential E3 (119837);48.009;7.85685;;;;12.01.22;31.01.22;16.02.22;UWIN10;;35
+38;Erbprinzenstraße 17A;Uni;;Bushnell Essential E3 (119837);47.99241667;7.844516667;;;;13.01.22;02.02.22;15.02.22;UWIN 05;;33

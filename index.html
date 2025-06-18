@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>index.knit</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<div class="hero-image"> 
+        <div class="image-text">
+          <div class="top-text">marius huber</div>
+              <div class="bottom-text">Datenmanagement | Datenanalyse | Datenvisualisierung</div>
+        </div>
+</div>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="abstylen.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div id="acab">
+<img src="Header-Image-2.svg">
+<nav>
+<ul>
+<li>
+<a href="#Profil">Profil</a>
+</li>
+<li>
+<a href="#Impressum">Kontakt &amp; Impressum</a>
+</li>
+</ul>
+</nav>
+</div>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="main-container">
+<div id="Profil">
+<p></br> </br></p>
+<div style="text-align:center !important;">
+<button class="button selected" onclick="openCity(&#39;Leistungen&#39;)">
+Leistungen
+</button>
+<button class="button" onclick="openCity(&#39;Übermich&#39;)">
+Über mich
+</button>
+</div>
+</div>
+<div id="Leistungen" class="w3-container city">
+</br>
+<h1>
+Warum Daten analysieren?
+</h1>
+<p>Um in einer dynamischen Umwelt wegweisende Entscheidungen für eine
+nachhaltige Entwicklung zu treffen, sind Akteur:Innen der Politik, wie
+auch der Wirtschaft angehalten, <strong>datenbasierte &amp; robuste
+wissenschaftliche Erkenntnisse</strong> in Prozesse einzubinden.</br>
+Durch gezielte <strong>Datenaufbereitung und -Auswertung</strong> können
+Veränderungen frühzeitig erkannt, Trends abgeleitet und fundierte
+Maßnahmen zum Schutz unserer Umwelt getroffen werden.</br> Um Sie bei
+der Entscheidungsfindung zu unterstützen, biete ich folgende
+Dienstleistungen an:</p>
+<h3>
+Datenmanagement
+</h3>
+<div class="columns fullscreen">
+<div class="column fullscreen" style="width:50%;">
+<p>
+<strong>Datenaufbereitung ist der Grundstein jeder fundierten
+Analyse.</strong> Rohdaten aus der Feldarbeit – etwa aus Sensoren,
+Umweltmonitoring oder manuellen Erhebungen – sind teilweise
+unvollständig, uneinheitlich oder fehlerbehaftet. Ohne sorgfältige
+Bereinigung, Standardisierung und Umstrukturierung lassen sich aus
+diesen Datensätzen keine verlässlichen Aussagen ableiten.
+</p>
+<p>
+<strong>Ein durchdachter Datenvorbereitungsprozess sorgt dafür, dass aus
+Rohdaten wertvolle Informationen werden.</strong> Dabei werden
+Messfehler identifiziert, fehlende Werte sinnvoll behandelt und Daten in
+Formate überführt, die für statistische Auswertungen oder
+Visualisierungen geeignet sind. So entsteht eine belastbare Grundlage,
+auf der Analysen effizient durchgeführt und nachhaltige Entscheidungen
+getroffen werden können.
+</p>
+</div><div class="column fullscreen" style="width:5%;">
+
+</div><div class="column fullscreen" style="width:45%;">
+<figure style="text-align:center;">
+<img 
+    width="600vw"
+    height="auto"
+    max-height="400px"
+    src="Schaubild-Datenmanagement.svg">
+<figcaption class="caption">
+Bildrechte: Globus -
+<a href="https://www.pexels.com/de-de/@pixabay/" target="_blank">Pixabay</a>,
+Fledermaus -
+<a href="https://www.pexels.com/de-de/@njeromin/" target="_blank">Niklas
+Jeromin</a>, Messstation -
+<a href="https://www.pexels.com/de-de/@ulrick-t/" target="_blank">Ulrik
+Trappschuh</a>.
+</figcaption>
+<figcaption class="caption2">
+Bildrechte: Globus -
+<a href="https://www.pexels.com/de-de/@pixabay/" target="_blank">Pixabay</a>,
+Fledermaus -
+<a href="https://www.pexels.com/de-de/@njeromin/" target="_blank">Niklas
+Jeromin</a>, Messstation -
+<a href="https://www.pexels.com/de-de/@ulrick-t/" target="_blank">Ulrik
+Trappschuh</a>.
+</figcaption>
+</figure>
+</div>
+</div>
+<h3>
+Datenanalyse
+</h3>
+<p>
+<strong>Die Datenanalyse liefert Antworten auf zentrale Fragestellungen
+– vorausgesetzt, sie basiert auf einer soliden Methodik.</strong> Durch
+statistische Verfahren lassen sich Muster erkennen, Zusammenhänge
+untersuchen und Hypothesen überprüfen. Gerade bei komplexen Umweltdaten,
+die oft von vielen Einflussfaktoren geprägt sind, ist eine fundierte
+Analyse entscheidend, um belastbare Erkenntnisse zu gewinnen.
+</p>
+<figure>
+<img 
+    width="100%"
+    src="Datenanalyse-Beispielplot2.png">
+<figcaption class="caption">
+Die vier abgebildeten Plots sind die klassischen Diagnoseplots einer
+linearen Regression (LM). Die Antwortvariable des Modells ist der
+Verbrauch von Kraftstoff in miles per gallon, die Prädiktorvariable der
+Hubraum. Die Daten enstammen dem “mtcars”-Beispieldatensatz für die
+Statistiksoftware R. Die Residuen (Punkte) sind entsprechend der
+Zylinderanzahl eingefärbt
+</figcaption>
+<figcaption class="caption2">
+Vier Diagnoseplots eines LMs - Für eine ausführliche Beschreibung bitte
+Smartphone um 90°drehen.
+</figcaption>
+</figure>
+</br>
+<h3>
+Datenvisualisierung
+</h3>
+<p>
+<strong>Datenvisualisierung macht komplexe Zusammenhänge sichtbar und
+verständlich.</strong> Durch klar gestaltete Grafiken, Karten oder
+interaktive Dashboards können auch umfangreiche Datensätze anschaulich
+und intuitiv vermittelt werden. So werden wissenschaftliche Erkenntnisse
+nicht nur zugänglich, sondern auch wirksam kommunizierbar – für
+Fachleute ebenso wie für ein breiteres Publikum.
+</p>
+<p></br></p>
+<div id="A" class="w3-container tab" style="text-align:center;">
+<figure>
+<img src="Konfliktplot-simpel.png" height="500vh">
+<figcaption class="caption">
+Das Schaubild zeigt die Aktivität von Fledermäusen als Funktion der
+Schwellenwerte zur automatischen Ausschaltung von Windkraftanlagen
+(Lufttemperatur über 10°C, Windgeschwindigkeit unter 6m/s). Rot
+eingefärbte Zellen zeigen 10-Minuten-Fenster des Konflikts auf. Wie man
+erkennen kann, waren in diesem Fall keine Fledermäuse aktiv, während die
+Windkraftanlagen eingeschaltet waren.
+</figcaption>
+<figcaption class="caption2">
+Fledermausaktivität ~ Temperatur und Windgeschwindigkeit - Für eine
+ausführliche Beschreibung bitte Smartphone um 90°drehen.
+</figcaption>
+</figure>
+</div>
+<div id="B" class="w3-container tab"
+style="display:none; text-align:center;">
+<figure>
+<img src="xyz.png" height="500vh">
+<figcaption class="caption">
+Boxplots der Antwortvariablen A) logarithmierte Spannung (V) am letzten
+Erdstab bei Kurzschluss; B) Spannung (V) 100 m entfernt vom
+Erdungsstandort am Zaun ohne Kurzschluss als Funktion des Prädiktors
+Erdstablänge. Grafik eines von mir erarbeiteten
+<a href="https://www.biosphaerengebiet-alb.de/fileadmin/projekte/Schaeferei_Herdenschutzprojekt/2024-08-29_Fest_installierte_Erdungen_Schwaebische_Alb.pdf" target="_blank">Projektabschlussberichts</a>.
+</figcaption>
+<figcaption class="caption2">
+Spannungsmesswerte ~ Erdstablänge im Boden - Für eine ausführliche
+Beschreibung bitte Smartphone um 90°drehen.
+</figcaption>
+</figure>
+</div>
+<div id="C" class="w3-container tab"
+style="display:none; text-align:center; ">
+<figure>
+<img src="FVA-Karte-II.png" height="521vh">
+<figcaption class="caption">
+Die Karten zeigen die geographische Lage (B) sowie bodenkundliche
+Feuchtestufe (A) und Kationenaustauschkapazität (C) der Datenpunkte des
+o.g. Berichts.
+</figcaption>
+<figcaption class="caption2">
+Geographische Lage (B), bodenkundliche Feuchtestufe (A) und
+Kationenaustauschkapazität (C) der Datenpunkte des o.g. Berichts.
+</figcaption>
+</figure>
+</div>
+<div class="centered-buttons">
+<p><i class="arrow left"></i>
+<button class="button2 selected2" onclick="openTab('A')"></button>
+<button class="button2" onclick="openTab('B')"></button>
+<button class="button2" onclick="openTab('C')"></button>
+<i class="arrow right"></i></p>
+</div>
+<p></br></p>
+<p>
+<strong>Eine gute Visualisierung lenkt den Blick auf das
+Wesentliche.</strong> Sie unterstützt dabei, Muster zu erkennen,
+Veränderungen zu verfolgen und Ergebnisse überzeugend zu präsentieren.
+Ich gestalte Visualisierungen so, dass sie sowohl ästhetisch ansprechend
+als auch inhaltlich präzise sind – und je nach Bedarf als statisches
+Format oder interaktive Anwendung zur Verfügung stehen.
+</p>
+<p></br></p>
+<div style="text-align:center">
+<iframe src="interaktive-karte2.html" width="90%" height="520px" style="border:none;"></iframe>
+<div class="caption">
+Die abgebildete, interaktive Karte zeigt Ergebnisse der Datenaufnahme
+des Urban Wildlife in Freiburg Projekts der Universität Freiburg aus den
+Jahren 2021 bis 2023. Abgebildet sind die Standorte der genutzten
+Kamerafallen und bei Mausklick auf die Standorte erhalten Sie einen
+tabellarischen Überblick über die in dem ausgewählten Monat dort
+fotografierten Tierarten.
+</div>
+<div class="caption2">
+Ergebnisse der Datenaufnahme des Urban Wildlife in Freiburg Projekts der
+Universität Freiburg aus den Jahren 2021 bis 2023.
+</div>
+</div>
+</div>
+</div>
+<div id="Übermich" class="w3-container city"
+style="display:none; margin-left:5vw; margin-right:5vw">
+<h1>
+Über mich
+</h1>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>Während meines Studiums der “Umweltwissenschaften” (M.Sc.) mit Fokus
+auf Wildtiere und Artvielfalt erlernte ich viel über die Sammlung-,
+Bereinigung-, Analyse- und Visualisierung von Daten. </br></br> Nach
+meiner Anstellung als wissenschaftliche Hilfskraft konzentriere ich
+derzeit meine Arbeit auf das Anbieten von Dienstleistungen der
+Datenanalyse und Visualisierung in der Disziplin der
+Umweltwissenschaften. <br> Meinen detaillierteren Werdegang können Sie
+dem Lebenslauf entnehmen.</p>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:25%;">
+<figure style="text-align: center;">
+<img src="best.jpeg"></img>
+</figure>
+</div>
+</div>
+<p></br></p>
+<h1>
+Lebenslauf
+</h1>
+<h2>
+Berufserfahrung
+</h2>
+<p></br></p>
+<div class="columns">
+<div class="column" style="width:20%;">
+</br>
+<figure style="text-align:center;">
+<img class="logo" src="FVA-LOGO.png" height=100>
+<figcaption class="caption2">
+<a href="https://www.fva-bw.de/startseite" target="_blank">Forstliche
+Versuchs- und Forschungsanstalt Baden-Württemberg</a>
+</figcaption>
+</figure>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:75%;">
+<div class="Datum">
+Februar 2023 - Dezember 2024
+</div>
+<h3>
+Wissenschaftlicher Mitarbeiter/ Sachbearbeiter
+</h3>
+<p>Mitarbeit im
+<a href="https://www.fva-bw.de/herdenschutz" target="_blank">Herdenschutz-Team
+der Forstlichen Versuchs- und Forschungsanstalt</a> zur Erstinformation
+und Beratung von Tierhaltenden bezüglich präventiver Herdenschutz-
+Maßnahmen gegen Wolfsübergriffe: Terminvereinbarung, Datenbankpflege und
+Datenauswertung, Konzeptionierung der Beratungsevaluation; Verfassen
+eines
+<a href="https://www.biosphaerengebiet-alb.de/fileadmin/projekte/Schaeferei_Herdenschutzprojekt/2024-08-29_Fest_installierte_Erdungen_Schwaebische_Alb.pdf" target="_blank">wissenschaftlichen
+Projektabschlussberichts</a>; Mithilfe bei der Dokumentation von
+Nutztierrissen mit Wolfsverdacht; Halten wissenschaftlicher Vorträge;
+Mitarbeit bei Informationsveranstaltungen.</p>
+</div>
+</div>
+<p></br></br></p>
+<div class="columns">
+<div class="column" style="width:20%;">
+</br>
+<figure style="text-align:center;">
+<img class="logo" src="UNI-LOGO.jpg" height=100>
+<figcaption class="caption2">
+<a href="https://uni-freiburg.de/" target="_blank">Albert-Ludwigs-Universität
+Freiburg</a>
+</figcaption>
+</figure>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:75%;">
+<div class="Datum">
+März 2020 - Juni 2023
+</div>
+<h3>
+Studentischer/ Wissenschaftlicher Mitarbeiter
+</h3>
+<p>Wissenschaftliche Mitarbeit im
+<a href="https://www.wildlife.uni-freiburg.de/de/forschung/laufend/urban-wildlife-information-in-freiburg-uwif" target="_blank">Urban
+Wildlife in Freiburg </a>Projekt – Systematisches Monitoring von
+Wildtieren im urbanen Raum Freiburgs mithilfe von Kamerafallen;
+Klassifizieren, Standardisieren und Auswertung der erhaltenen Daten;
+Erstellen von
+<a href="https://rpubs.com/Wildtiere-Freiburg/1054908" target="_blank">Web-Inhalten</a>;
+Erneuerung des Konzepts zum Umgang mit personenbezogenen Daten, die mit
+den Kameras aufgezeichnet werden.</p>
+</div>
+</div>
+<p></br></br></p>
+<div class="columns">
+<div class="column" style="width:20%;">
+</br>
+<figure style="text-align:center;">
+<img class="logo" src="FVA-LOGO.png" height=100>
+<figcaption class="caption2">
+<a href="https://www.fva-bw.de/startseite" target="_blank">Forstliche
+Versuchs- und Forschungsanstalt Baden-Württemberg</a>
+</figcaption>
+</figure>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:75%;">
+<div class="Datum">
+Oktober 2017 - September 2019
+</div>
+<h3>
+Praktikant/ Studentische Hilfskraft
+</h3>
+<p>Mitarbeit im
+<a href="https://www.fva-bw.de/top-meta-navigation/fachabteilungen/fva-wildtierinstitut/luchs-wolf" target="_blank">Luchs-
+und Wolfsmonitoring</a> - Erfassung, Auswertung und Überprüfung von
+Hinweisen und Nachweisen anhand der SCALP-Kriterien, z.B. Mitarbeit bei
+der Auswertung des ersten Nutztierrisses eines Wolfs in BW im 21.
+Jahrhundert (7.10.2017); Anwesenheit bei der Fangaktion von Luchs
+“Wilhelm”. Mitarbeit im passiven Wildkatzenmonitoring sowie Durchführung
+des Lockstockmonitorings 2019 (02.2019 - 04.2019).</p>
+</div>
+</div>
+</br>
+<h2>
+Ausbildung
+</h2>
+<p></br></p>
+<div class="columns">
+<div class="column" style="width:30%;">
+<figure style="text-align:center;">
+<img class="logo" src="OKEN-LOGO.jpg" height=100>
+<figcaption class="caption2">
+<a href="https://www.oken.de/" target="_blank">Oken-Gymnasium
+Offenburg</a>
+</figcaption>
+</figure>
+<div style="text-align:center;">
+</br>
+<div class="Datum">
+Juni 2012
+</div>
+<h3 style="margin-top:0px;">
+Abitur
+</h3>
+<div style="text-align: center;">
+Naturwissenschaftlicher Zug.
+</div>
+</div>
+</div><div class="column" style="width:3%;">
+
+</div><div class="column" style="width:30%;">
+<figure style="text-align:center;">
+<img class="logo" src="UNI-LOGO.jpg" height=100>
+<figcaption class="caption2">
+<a href="https://uni-freiburg.de/" target="_blank">Albert-Ludwigs-Universität
+Freiburg</a>
+</figcaption>
+</figure>
+<div style="text-align:center;">
+</br>
+<div class="Datum">
+Januar 2019
+</div>
+<h3 style="margin-top:0px;">
+B.Sc. Waldwirtschaft und Umwelt
+</h3>
+<div style="text-align: center;">
+Bachelorthesis <a href="Bachelorarbeit.pdf" target="_blank">“Alters- und
+geschlechtsspezifische Analyse von im Straßenverkehr getöteten
+Wildkatzen” </a></br> Nebenfach “Internationale Waldwirtschaft”.
+</div>
+</div>
+</div><div class="column" style="width:3%;">
+
+</div><div class="column" style="width:30%;">
+<figure style="text-align:center;">
+<img class="logo" src="UNI-LOGO.jpg" height=100>
+<figcaption class="caption2">
+<a href="https://uni-freiburg.de/" target="_blank">Albert-Ludwigs-Universität
+Freiburg</a>
+</figcaption>
+</figure>
+</br>
+<div style="text-align:center;">
+<div class="Datum">
+Mai 2022
+</div>
+<h3 style="margin-top:0px;">
+M.Sc. Environmental Sciences
+</h3>
+<div style="text-align: center;">
+Masterthesis <a href="Master Thesis.pdf" target="_blank">“Is
+Connectivity the Key? Analysis of Mammal Diversity in Urban Green Areas”
+</a> </br> Profillinie “Wildlife and Biodiversity”.
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="Impressum">
+<p></br> </br></p>
+<h1>
+Kontakt &amp; Impressum
+</h1>
+<p style="text-align:center;">
+Marius Huber</br> Freiaustraße 99</br> 79100 Freiburg</br> <a
+href="mailto:huber.datenmanagement@gmail.com"
+class="email">huber.datenmanagement@gmail.com</a>
+</p>
+</div>
+</div>
+<script>
+function refreshSlick() {
+  setTimeout(function() {
+    $('.slick-initialized').slick('setPosition');
+  }, 300); // kleines Delay hilft Firefox oft
+}
+
+document.querySelector("button[onclick=\"openCity('Über mich')\"]")
+  .addEventListener("click", refreshSlick);
+
+function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(cityName).style.display = "block";  
+}
+
+function openTab(tabName) {
+  var i;
+  var x = document.getElementsByClassName("tab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(tabName).style.display = "block";  
+}
+
+  document.addEventListener("shown.bs.tab", function() {
+    HTMLWidgets.findAll().forEach(function(widget) {
+      if(widget.resize) widget.resize();
+    });
+  });
+</script>
+<script>
+$('.button').on('click', function(){
+    $('.button').removeClass('selected');
+    $(this).addClass('selected');
+});
+</script>
+<script>
+$('.button2').on('click', function(){
+    $('.button2').removeClass('selected2');
+    $(this).addClass('selected2');
+});
+</script>
+<script>
+  const header = document.getElementById("acab");
+  let lastScrollTop = 0;
+
+  window.addEventListener("scroll", function () {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop > window.innerHeight - 10) {
+    header.classList.add("scrolled");
+  } else {
+    header.classList.remove("scrolled");
+  }
+
+  if (scrollTop > lastScrollTop && scrollTop > 100) {
+    header.classList.add("dummkopf");
+  } else {
+    header.classList.remove("dummkopf");
+  }
+
+  lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+});
+</script>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

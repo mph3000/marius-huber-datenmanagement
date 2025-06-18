@@ -1,0 +1,531 @@
+/*SCHRIFT*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+/*GENERELLE ANPASSUNGEN*/
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  max-width: 90vw !important;
+  margin-left: 5vw !important;
+  margin-right: 5vw !important;
+}
+
+body {
+      max-width: 100vw !important;
+      background-color: #fff;
+      color: #120;
+}
+    
+p{
+  text-align: justify; 
+	text-align-last: none;
+	font-size: 17px;
+	color: #120;
+} 
+
+
+/*LINKS*/
+
+a {
+  color:  #d60;
+  target: _blank;
+  transition: color 0.7s ease;
+  transition-behavior: allow-discrete;
+}
+
+a:hover {
+  color: #f90;
+}
+
+a:visited {
+  color: #f90;
+}
+
+/*HEADER*/
+
+#acab img {
+    height: 60px;
+    margin-left: 15vw;
+    margin-right: 4vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#acab {
+    background-color: #ffffff44;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-height: 60px;
+    backdrop-filter: blur(4px);
+    overflow: hidden;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 1s ease, max-height 1s ease, background-color 1s ease, box-shadow 1s ease;
+    transition-behavior: allow-discrete;
+    box-shadow: 0 0 15px 0 #ffffffff;
+}
+
+#acab.scrolled {
+  background-color: #00906044;
+  backdrop-filter: blur(4px);
+  color: #fff;
+  box-shadow: 0 0 15px 0 #009060ff;
+  
+}
+
+#acab.scrolled li a, header li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#acab.dummkopf {
+  opacity: 0;
+  max-height: 1px;
+}
+
+#acab ul {
+  justify-content: center;
+  align-items: center;
+}
+
+#acab * {
+  display: inline;
+  font-size: 17px;
+}
+
+#acab li {
+  margin: 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#acab li a, header li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#acab li a:hover {
+  color: #a22;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+
+/*ÜBERSCHRIFTEN*/
+
+h1, h2, h3 {
+  text-align: center !important;
+  text-transform: uppercase !important;
+  font-weight: bold;
+  color: #120;
+}
+
+h1 {
+  font-size: 24px !important;
+}
+
+h2 {
+  font-size: 22px !important;
+}
+
+h3 {
+  font-size: 19px !important;
+}
+
+/*ABBILDUNGSBESCHRIFTUNGEN*/
+
+.caption{
+  font-size: 15px !important;
+  font-style: italic !important;
+  text-align: center !important; 
+  color: #120;
+}
+
+.caption2{
+  display: none;
+}
+
+/*WEITERE SCHRIFTFORMATIERUNGEN*/
+
+.Datum {
+  text-align: center !important; /* Erzwingt die Zentrierung */
+  width: 100%; /* Stellt sicher, dass es den gesamten Container ausfüllt */
+  margin: 0 auto; /* Zentriert den Block, falls er in einem Container ist */
+  text-transform: uppercase !important;
+  font-weight: 600;
+  color: #096;
+  font-size: 17px;
+}
+
+/*NAV-TABS*/
+
+/* Styling für die Tabs */
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #ccc;
+}
+
+.button {
+  background-color: #ffffff00; /* Green */
+  border: 4px solid #096;
+  color: #096;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 20px;
+  margin-right: 8%;
+  margin-left: 8%;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  transition: border 1s ease, color 1s ease, background-color 1s ease;
+  transition-behavior: allow-discrete;
+}
+
+.button.selected {
+  background-color: #096; /* Green */
+  border: 4px solid #096;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 20px;
+  margin-right: 8%;
+  margin-left: 8%;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+}
+
+.button:hover {
+  background-color: #096; /* Green */
+  border: 4px solid #096;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 20px;
+  margin-right: 8%;
+  margin-left: 8%;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+}
+
+.button2 {
+  background-color: #ffffff00;
+  padding: 5px 5px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #096;
+  transition: background-color 1s ease; padding 1s ease, border 1s ease, color 1s ease, 
+  transition-behavior: allow-discrete;
+}
+
+.button2:hover {
+  background-color: #096;
+  padding: 10px 10px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #096;
+}
+
+.button2.selected2 {
+  background-color: #096;
+  padding: 10px 10px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #096;
+}
+
+.centered-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw; /* Optional: Abstand zwischen Buttons und Pfeilen */
+}
+
+.arrow {
+  border: solid #00906088;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  position: relative;
+}
+
+.centered-buttons .arrow {
+  border: solid #00906088;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  position: relative;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.nav-tabs .nav-link {
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 0 0;
+  margin-right: 5px;
+  padding: 10px 20px;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-tabs .nav-link.active {
+  background: #6c757d;
+  color: white;
+}
+
+.tab-content {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: -1px;
+  background: #fff;
+}
+
+.city{
+  max-width: 100vw !important;
+}
+
+
+
+/* -----------COLUMNS -----------*/
+
+.columns{
+  max-width: 100vw !important;
+}
+
+/* -----------HERO IMAGE AT TOP OF PAGE -----------*/
+
+/* LARGE HERO IMAGE AT TOP OF PAGE*/
+
+.hero-image {
+    position: relative;
+    /* liner gradient tints the image darker for readability*/
+    background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url("Wald-Bild.jpg"); 
+    height: 100vh;
+    width: 100vw !important;
+    background-size: cover;
+    background-color: #141c25f2;
+    background-position: center center;
+    display: flex; /* Change to `display: none` for no hero image */
+    justify-content: center;
+    align-items: center;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 2em;
+    padding: 0 !important;
+}
+
+.top-text {
+  position: relative;
+  font-size: 32px;
+  padding-bottom: 0.75em;
+  text-align: center;
+  display: block; /* Change to `display: none` for no top text */
+  color: #ffffffdd;
+  font-weight: bold;
+}
+
+.bottom-text {
+  position: relative;
+  letter-spacing: 0.065em;
+  line-height: 1em;
+  font-size: 38px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block; /* Change to `display: none` for no bottom text */
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+}
+
+.Leistungen {
+  max-width: 84vw !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+/*SMARTPHONE SETTINGS*/
+
+@media screen and (max-width: 600px) {
+  #acab {
+    display: none;
+  }
+  
+  h1 {
+  font-size: 20px !important;
+  }
+
+  h2 {
+  font-size: 18px !important;
+  }
+
+  h3 {
+  font-size: 16px !important;
+  }
+  
+  p{
+  text-align: left; 
+	text-align-last: none;
+	font-size: 15px;
+	color: #120;
+} 
+  
+  .caption{
+  display: none;
+  }
+  
+  .caption2{
+  display: inline;
+  font-size: 13px !important;
+  font-style: italic !important;
+  }
+  
+  .main-container {
+  max-width: 100vw !important;
+  }
+  
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+  
+  
+  .columns {
+  display: block !important;  /* Entfernt die Spalten-Formatierung */
+  }
+
+  .column {
+  width: 100% !important;  /* Spalten nehmen die volle Breite ein */
+  }
+
+  figure {
+  display: block;
+  width: 100% !important;
+  text-align: center;
+  }  
+
+ .responsive-slickr {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important; /* Feste Höhe für Smartphones */
+  max-height: 400px !important;
+    }
+  
+ .leaflet {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto;
+  max-height: 100vw;
+  }
+  
+  iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto;
+  max-height: 100vw;  
+  }
+  
+  .col-xs-12.col-sm-4.col-md-3 {
+    display: none;
+  }
+  
+  .top-text {
+    font-size: 18px;
+  }
+
+  .bottom-text {
+    font-size: 25px;
+  }
+  
+}
+
+
+
+/*TABLET SETTINGS*/
+
+@media screen and (min-width: 601px) and (max-width: 1199px) {
+  
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+  
+
+ .responsive-slickr {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important; /* Feste Höhe für Smartphones */
+        max-height: 400px !important;
+    }
+  
+ .leaflet {
+      width: 100% !important;
+        max-width: 100% !important; 
+      max-height: 300px;  
+ }
+ 
+ .fullscreen {
+  display: block !important;  /* Entfernt die Spalten-Formatierung */
+  width: 100% !important;  /* Spalten nehmen die volle Breite ein */
+  }
+  
+  .col-xs-12.col-sm-4.col-md-3 {
+    display: none;
+  }
+  
+  .top-text {
+    font-size: 25px;
+  }
+
+  .bottom-text {
+    font-size: 40px;
+  }
+  
+}
