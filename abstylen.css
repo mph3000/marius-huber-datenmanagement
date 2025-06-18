@@ -492,6 +492,19 @@ h3 {
 
 @media screen and (min-width: 601px) and (max-width: 1199px) {
   
+  
+  
+  #acab * {
+  display: inline;
+  font-size: 14px;
+  }
+  
+  #acab li {
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+  
   img {
   max-width: 100%;
   height: auto;
