@@ -236,13 +236,19 @@ getroffen werden können.
 </div><div class="column fullscreen" style="width:5%;">
 
 </div><div class="column fullscreen" style="width:45%;">
+<div id="figA" class="overlay" width="100vw" height="100vh">
+<div class="overlay-content">
+<p><img src="Schaubild-Datenmanagement.svg" onclick="closefigA()"
+width="100%" height="auto"></p>
+</div>
+</div>
 <figure style="text-align:center;">
 <img 
     width="600vw"
     height="auto"
     max-height="400px"
     src="Schaubild-Datenmanagement.svg"
-    onclick="this.requestFullscreen()"/>
+    onclick="openfigA()">
 <figcaption class="caption">
 Bildrechte: Globus -
 <a href="https://www.pexels.com/de-de/@pixabay/" target="_blank">Pixabay</a>,
@@ -275,10 +281,19 @@ untersuchen und Hypothesen überprüfen. Gerade bei komplexen Umweltdaten,
 die oft von vielen Einflussfaktoren geprägt sind, ist eine fundierte
 Analyse entscheidend, um belastbare Erkenntnisse zu gewinnen.
 </p>
+<!-- Overlay für figB -->
+<div id="figB" class="overlay" width="100vw" height="100vh">
+<div class="overlay-content">
+<img src="Datenanalyse-Beispielplot.png" 
+    style="width:auto; height:auto" 
+    onclick="closefigB()">
+</div>
+</div>
 <figure>
 <img 
     width="100%"
-    src="Datenanalyse-Beispielplot.png">
+    src="Datenanalyse-Beispielplot.png"
+    onclick="openfigB()">
 <figcaption class="caption">
 Die vier abgebildeten Plots sind die klassischen Diagnoseplots einer
 linearen Regression (LM). Die Antwortvariable des Modells ist der
@@ -306,8 +321,16 @@ Fachleute ebenso wie für ein breiteres Publikum.
 </p>
 <p></br></p>
 <div id="A" class="w3-container tab" style="text-align:center;">
+<div id="figC" class="overlay" width="100vw" height="100vh">
+<div class="overlay-content">
+<img src="Konfliktplot-simpel.png" 
+  onclick="closefigC()">
+</div>
+</div>
 <figure>
-<img src="Konfliktplot-simpel.png" height="500vh">
+<img src="Konfliktplot-simpel.png" 
+  height="500vh"
+  onclick="openfigC()">
 <figcaption class="caption">
 Das Schaubild zeigt die Aktivität von Fledermäusen als Funktion der
 Schwellenwerte zur automatischen Ausschaltung von Windkraftanlagen
@@ -324,8 +347,16 @@ ausführliche Beschreibung bitte Smartphone um 90° drehen.
 </div>
 <div id="B" class="w3-container tab"
 style="display:none; text-align:center;">
+<div id="figD" class="overlay" width="100vw" height="100vh">
+<div class="overlay-content">
+<img src="xyz.png"
+  onclick="closefigD()">
+</div>
+</div>
 <figure>
-<img src="xyz.png" height="500vh">
+<img src="xyz.png"
+    height="500vh"
+    onclick="openfigD()">
 <figcaption class="caption">
 Boxplots der Antwortvariablen A) logarithmierte Spannung (V) am letzten
 Erdstab bei Kurzschluss; B) Spannung (V) 100 m entfernt vom
@@ -341,8 +372,16 @@ Beschreibung bitte Smartphone um 90° drehen.
 </div>
 <div id="C" class="w3-container tab"
 style="display:none; text-align:center; ">
+<div id="figE" class="overlay" width="100vw" height="100vh">
+<div class="overlay-content">
+<img src="FVA-Karte-II.png"
+    onclick="closefigE()">
+</div>
+</div>
 <figure>
-<img src="FVA-Karte-II.png" height="521vh">
+<img src="FVA-Karte-II.png" 
+      height="521vh"
+      onclick="openfigE()">
 <figcaption class="caption">
 Die Karten zeigen die geographische Lage (B) sowie bodenkundliche
 Feuchtestufe (A) und Kationenaustauschkapazität (C) der Datenpunkte des
@@ -375,25 +414,27 @@ Format oder interaktive Anwendung zur Verfügung stehen.
 <div id="fullscreenleaflet" class="overlay" width="100vw"
 height="100vh">
 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="text-align:center;">×</a>
-<div class="overlay-content">
-<iframe src="interaktive-karte2.html" style="border:none; width:100vw; height= 100vh;"></iframe>
+<div class="overlay-content" height="100%">
+<iframe src="interaktive-karte2.html" style="border:none; width:100%; height= 100%; padding-top=5%"></iframe>
 </div>
 </div>
 <div style="text-align:center;">
-<p><iframe src="interaktive-karte2.html" width="90%" height="520px" style="border:none; text-align:center;"></iframe></p>
-<button class="button3" onclick="openNav()">FULLSCREEN</button>
+<iframe src="interaktive-karte2.html" width="90%" height="520px" style="border:none; text-align:center;"></iframe><br />
+
 <div class="caption">
 Die abgebildete, interaktive Karte zeigt Ergebnisse der Datenaufnahme
 des Urban Wildlife in Freiburg Projekts der Universität Freiburg aus den
 Jahren 2021 bis 2023. Abgebildet sind die Standorte der genutzten
 Kamerafallen und bei Mausklick auf die Standorte erhalten Sie einen
 tabellarischen Überblick über die in dem ausgewählten Monat dort
-fotografierten Tierarten.
+fotografierten Tierarten. In den Ebenen können die jeweiligen Monate
+ausgewählt werden, die von besonderem Interesse sind.
 </div>
 <div class="caption2">
 Ergebnisse der Datenaufnahme des Urban Wildlife in Freiburg Projekts der
 Universität Freiburg aus den Jahren 2021 bis 2023.
 </div>
+<button class="button3" onclick="openNav()" style="text-align:center;">FULLSCREEN</button>
 </div>
 </div>
 </div>
@@ -767,8 +808,73 @@ $('.button2').on('click', function(){
     $(this).addClass('selected2');
 });
 </script>
+<!-- <script> -->
+<!-- $(document).ready(function(){$("img").click(function(){this.requestFullscreen()})}); -->
+<!-- </script> -->
 <script>
-$(document).ready(function(){$("img").click(function(){this.requestFullscreen()})});
+function openfigA() {
+  const el = document.getElementById("figA");
+  el.style.width = "100%";
+  el.style.height = "100%";  // ← Das hier fehlt aktuell!
+}
+
+function closefigA() {
+  const el = document.getElementById("figA");
+  el.style.width = "0%";
+  el.style.height = "0%";  // ← Vergiss das Zurücksetzen nicht!
+}
+</script>
+<script>
+function openfigB() {
+  const el = document.getElementById("figB");
+  el.style.width = "100%";
+  el.style.height = "100%";  // ← Das hier fehlt aktuell!
+}
+
+function closefigB() {
+  const el = document.getElementById("figB");
+  el.style.width = "0%";
+  el.style.height = "0%";  // ← Vergiss das Zurücksetzen nicht!
+}
+</script>
+<script>
+function openfigC() {
+  const el = document.getElementById("figC");
+  el.style.width = "100%";
+  el.style.height = "100%";  // ← Das hier fehlt aktuell!
+}
+
+function closefigC() {
+  const el = document.getElementById("figC");
+  el.style.width = "0%";
+  el.style.height = "0%";  // ← Vergiss das Zurücksetzen nicht!
+}
+</script>
+<script>
+function openfigD() {
+  const el = document.getElementById("figD");
+  el.style.width = "100%";
+  el.style.height = "100%";  // ← Das hier fehlt aktuell!
+}
+
+function closefigD() {
+  const el = document.getElementById("figD");
+  el.style.width = "0%";
+  el.style.height = "0%";  // ← Vergiss das Zurücksetzen nicht!
+}
+</script>
+<script>
+function openfigE() {
+  const el = document.getElementById("figE");
+  el.style.width = "100%";
+  el.style.height = "100%";  // ← Das hier fehlt aktuell!
+}
+
+function closefigE() {
+  const el = document.getElementById("figE");
+  el.style.width = "0%";
+  el.style.height = "0%";  // ← Vergiss das Zurücksetzen nicht!
+}
 </script>
 <script>
 function openNav() {
